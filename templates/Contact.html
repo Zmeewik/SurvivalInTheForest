@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru" itemscope itemtype="https://schema.org/ContactPage">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/AaptiveFormatter2.css">
+    <title itemprop="name">Связаться с создателями : Обратная связь с командой</title>
+    <meta name="description" content="Страница для отправки предложений и сообщений создателям сайта. Отправьте ваши идеи или предложения для улучшения нашего проекта.">
+    <meta name="keywords" content="связь с создателями, предложения, обратная связь, контакт, идея">
+
+    <meta property="og:title" content="Связаться с создателями">
+    <meta property="og:description" content="Страница для отправки предложений и сообщений создателям сайта. Отправьте ваши идеи или предложения для улучшения нашего проекта.">
+</head>
+<body>
+    <div class="contact" itemprop="mainEntity" itemscope itemtype="https://schema.org/ContactPoint">
+        <div class="contactPlace">
+            <h1 class="contact" itemprop="contactType">Отправка предложений</h1>
+            <form id="suggestionForm">
+                <label for="name">Ваше имя:</label><br>
+                <input type="text" id="name" name="Имя" placeholder="Ваше имя" itemprop="name"><br><br>
+
+                <label for="email">Email для ответа:</label><br>
+                <input type="email" id="email" name="Email" placeholder="Ваша электронная почта" itemprop="email"><br><br>
+
+                <label for="message">Предложение или сообщение:</label><br>
+                <textarea id="message" name="Предложение" rows="6" placeholder="Ваше предложение" required itemprop="description"></textarea><br><br>
+
+                <button id="submit-button" type="submit">Отправить</button>
+                <div class="button"><a href="Main.html">Главная</a></div>
+            </form>
+        </div>
+
+        <footer class="contacts" itemscope itemtype="https://schema.org/WPFooter">
+            <p itemprop="creator">Ивахо Вадим 4226</p>
+        </footer>
+    </div>
+    <script src="../static/js/form.js"></script>
+</body>
+</html>

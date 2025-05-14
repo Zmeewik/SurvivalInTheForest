@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /templates/Main.html
+Allow: /templates/Aid.html
+Allow: /templates/Connection.html
+Allow: /templates/Contact.html
+Allow: /templates/Cover.html
+Allow: /templates/Food.html
+Allow: /templates/Orientation.html
+Allow: /templates/Sanity.html
+Allow: /templates/SelfDefense.html
+Allow: /templates/Useful.html
+Allow: /templates/Warm.html
+Allow: /templates/Water.html
+
+Disallow: /templates/ExtremePage.html
+
+Sitemap: https://example.com/sitemap.xml
