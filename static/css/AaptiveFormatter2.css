@@ -267,9 +267,21 @@ ol{
     height: fit-content;
 }
 
-
-
-
+.image-wrapper {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    background-image: url('../../Assets/Images/Main/Alarm1.png');
+    background-repeat: repeat-y;
+    overflow: hidden;
+    position: relative;
+    background-position: 0 0;
+    background-size: cover;
+    transition: background-position 0.3s ease-in-out;
+    vertical-align: middle; 
+  }
 
 
 
