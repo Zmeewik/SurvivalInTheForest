@@ -75,43 +75,43 @@ div.main {
 }
 
 div.main.water{
-    background: url('../../Assets/Images/Water/waterBackground.jpg') no-repeat top center fixed;
+    background-image: url('../../Assets/Images/Water/waterBackground.jpg');
     background-size: cover;
 }
 div.main.food{
-    background: url('../../Assets/Images/Food/bonfire.jpg') no-repeat top center fixed;
+    background-image: url('../../Assets/Images/Food/bonfire.jpg');
     background-size: cover;
 }
 div.main.warm{
-    background: url('../../Assets/Images/Warm/warm.jpg') no-repeat top center fixed;
+    background-image: url('../../Assets/Images/Warm/warm.jpg');
     background-size: cover;
 }
 div.main.cover{
-    background: url('../../Assets/Images/Cover/cover.jpg') no-repeat top center fixed;
+    background-image: url('../../Assets/Images/Cover/cover.jpg');
     background-size: cover;
 }
 div.main.aid{
-    background: url('../../Assets/Images/Aid/aid.jpg') no-repeat top center fixed;
+    background-image: url('../../Assets/Images/Aid/aid.jpg');
     background-size: cover;
 }
 div.main.selfDefense{
-    background: url('../../Assets/Images/SelfDefense/selfDefence.jpg') no-repeat top center fixed;
+    background-image: url('../../Assets/Images/SelfDefense/selfDefence.jpg');
     background-size: cover;
 }
 div.main.connection{
-    background: url('../../Assets/Images/Connection/connection.jpg') no-repeat top center fixed;
+    background-image: url('../../Assets/Images/Connection/connection.jpg');
     background-size: cover;
 }
 div.main.oriantation{
-    background: url('../../Assets/Images/Oriantation/oriantation.jpg') no-repeat top center fixed;
+    background-image: url('../../Assets/Images/Oriantation/oriantation.jpg');
     background-size: cover;
 }
 div.main.useful{
-    background: url('../../Assets/Images/Useful/things.jpg') no-repeat top center fixed;
+    background-image: url('../../Assets/Images/Useful/things.jpg');
     background-size: cover;
 }
 div.main.sanity{
-    background: url('../../Assets/Images/Sanity/meditation.jpg') no-repeat top center fixed;
+    background-image: url('../../Assets/Images/Sanity/meditation.jpg');
     background-size: cover;
 }
 
@@ -271,9 +271,9 @@ ol{
     display: inline-block;
     margin: 0;
     padding: 0;
-    width: 30px;
-    height: 30px;
-    background-image: url('../../Assets/Images/Main/Alarm1.png');
+    width: 25px;
+    height: 25px;
+    background-image: url('../../Assets/Images/Main/Arrow3.png');
     background-repeat: repeat-y;
     overflow: hidden;
     position: relative;

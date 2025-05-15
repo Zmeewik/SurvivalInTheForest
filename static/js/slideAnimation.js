@@ -1,15 +1,34 @@
 $(document).ready(function () {
-    const tileHeight = 30; // высота одного тайла
+    const tileHeight = 25;
 
-    // Навешиваем обработчик на ссылку <a>
     $('a').hover(
         function () {
-            // Смещаем фон вверх на один тайл (иллюзия прокрутки)
-            $(this).find('.image-wrapper').css('background-position', `0 -${tileHeight}px`);
+            const $img = $(this).find('.image-wrapper');
+
+            // Анимация движения вверх
+            $({ bgY: 0 }).animate(
+                { bgY: -tileHeight },
+                {
+                    duration: 300,
+                    step: function (now) {
+                        $img.css('background-position', `0 ${now}px`);
+                    }
+                }
+            );
         },
         function () {
-            // Возвращаем фон в исходное положение
-            $(this).find('.image-wrapper').css('background-position', `0 0`);
+            const $img = $(this).find('.image-wrapper');
+
+            // Анимация возврата вниз
+            $({ bgY: -tileHeight }).animate(
+                { bgY: 0 },
+                {
+                    duration: 300,
+                    step: function (now) {
+                        $img.css('background-position', `0 ${now}px`);
+                    }
+                }
+            );
         }
     );
 });
